@@ -1,15 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home';
+import Header from './components/Header'
+import Footer from './components/Footer';
 import './index.css'; // Import your global styles
 
 function App() {
   return (
     <BrowserRouter>
+    <div>
+      <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        {/* Add other routes as needed */}
+      <Route path='/' element={<Home/>} />
+
       </Routes>
+    <Footer />
+    </div>
     </BrowserRouter>
   );
 }
