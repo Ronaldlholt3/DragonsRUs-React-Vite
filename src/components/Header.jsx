@@ -1,6 +1,9 @@
 import React from 'react';
 import { useState } from 'react'; // Import useState
 
+
+
+
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // State for mobile nav
 
@@ -31,23 +34,23 @@ function Header() {
         <nav className={`navbar ${isNavOpen ? 'active' : ''}`} data-navbar>
           <ul className="navbar-list">
             <li className="navbar-item">
-              <a href="#home" className="navbar-link" data-nav-link>
+              <a href="/" className="navbar-link" data-nav-link>
                 Home 🛕 
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#shop" className="navbar-link" data-nav-link>
+              <a href="PotionsList" className="navbar-link" data-nav-link>
                 Dragon Buddies 🐲
               </a>
             </li>
             {/* ... other navbar items ... */}
             <li className="navbar-item">
-              <a href="#" className="navbar-link" data-nav-link>
+              <a href="/Potions" className="navbar-link" data-nav-link>
                 Potion Shop 🫙
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#" className="navbar-link" data-nav-link>
+              <a href="/contact" className="navbar-link" data-nav-link>
                 Contact 📨
               </a>
             </li>

@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "express": "^5.1.0",
     "ionicons": "^7.4.0",
+    "mongoose": "^8.13.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1"

@@ -6,13 +6,14 @@ import Offer from '../components/Offer';
 import Product from '../components/Product';
 import Service from '../components/Service';
 import CTA from '../components/CTA'; // Correct import
-import Footer from '../components/Footer';
+
 
 function Home() {
   return (
     <div>
    
       <main>
+        <Header />
         <Hero />
         <Category />
         <Offer />
