@@ -9,6 +9,9 @@ const potionSchema = new mongoose.Schema({
   },
   description: {
     type: String,
+  },
+  imageURL: {
+  type: String
   }
   
 });

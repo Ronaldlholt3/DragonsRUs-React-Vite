@@ -18,8 +18,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/Contact' element={<Contact/>} />
-      <Route path='/Potions'element={<Potions/>} />
-      <Route path='/PotionsList'element={<PotionList/>} />
+      <Route path='/potions'element={<PotionList/>} />
       </Routes>
     <Footer />
     </div>
